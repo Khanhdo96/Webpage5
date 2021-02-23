@@ -1,0 +1,70 @@
+/*FONTS *****************/
+@font-face {
+  font-family: Shippori_Mincho;
+  src: url(font/ShipporiMincho-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Shippori_Mincho2;
+    src: url(font/ShipporiMincho-Regular.ttf);
+}
+/*****************/
+body{
+  display: flex;
+  justify-content: center;
+  background: repeating-linear-gradient(
+  45deg,
+  #ffdacc,
+  #ffdacc 10px,
+  #f1d1d5 10px,
+  #f1d1d5 20px
+);
+}
+h1{
+  font-family: Shippori_Mincho;
+}
+#container{
+position: relative;
+top: 100px;
+width: 500px;
+
+}
+#hero-image{
+  display: flex;
+  justify-content: center;
+
+}
+#hero-image img{
+  width: 250px;
+  height: 250px;
+}
+#content-box{
+  background: rgba(255, 99, 71, 0.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 6px 6px 8px #e6dae0;
+
+}
+ul{
+  position: relative;
+  margin: 40px;
+  margin-bottom: 15px;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+li{
+  margin: 10px;
+
+}
+a{
+  font-family: Shippori_Mincho2;
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+
+}
+a:hover{
+  background: rgba(255, 99, 71, 0.5);
+
+}
